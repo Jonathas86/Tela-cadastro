@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "accent-color",
+          "min-height: 0 auto",
+          "min-height: auto"
+        ]
+      }
+    ]
+  }
+}

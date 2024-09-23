@@ -1,0 +1,1220 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background: #222222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 950px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border-radius: 18px;
+  background: #ffff;
+}
+
+.container-img {
+  width: 50%;
+  display: flex;
+}
+
+.container-img img {
+  width: 100%;
+}
+
+.form-container {
+  padding: 20px 0 0 80px;
+  margin-top: -10px;
+}
+
+.form-container h2 {
+  font-size: 36px;
+  padding: 0 0 20px 0;
+  position: relative;
+  font-weight: 600;
+  color: #464646;
+}
+
+.form-container h2::before {
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 70px;
+  bottom: 22px;
+  left: 4px;
+  border-radius: 8px;
+  background: #f50057;
+}
+
+form {
+  margin: -20px 0 0 0;
+  position: relative;
+}
+.input-grup input {
+  width: 120%;
+  padding: 15px;
+  margin-top: 20px;
+  outline: none;
+  color: #807f7d;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #dddddd;
+}
+
+.input-grup input:focus {
+  border-color: #f50057;
+  border-radius: 5px;
+}
+
+.input-grup input::placeholder {
+  font-size: 15px;
+  color: #807f7d;
+}
+
+.input-senha input {
+  width: 120%;
+  padding: 15px;
+  margin-top: 20px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #dddddd;
+  outline: none;
+  color: #807f7d;
+}
+
+.input-senha input:focus {
+  border-color: #f50057;
+  border-radius: 5px;
+}
+
+.input-senha input::placeholder {
+  font-size: 15px;
+  color: #807f7d;
+}
+
+form i {
+  color: #807f7d;
+  position: absolute;
+  margin-left: 110%;
+  transform: translateY(-212%);
+}
+
+.input-checkbox {
+  margin-top: 30px;
+  accent-color: #807f7d;
+}
+
+.input-checkbox input {
+  cursor: pointer;
+}
+.input-checkbox span {
+  font-weight: 400;
+  font-size: 16px;
+  color: #222222;
+}
+
+button {
+  width: 120%;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  margin: 30px 0 20px 0;
+  background: #f50057;
+  color: #ffff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #a30844;
+  transition: 0.2;
+}
+button:active {
+  background: #f50057;
+  transition: 0.2;
+}
+
+@media screen and (max-width: 1520px) {
+  .input-grup input {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    outline: none;
+    color: #807f7d;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .input-grup input:focus {
+    border-color: #f50057;
+    border-radius: 5px;
+  }
+
+  .input-grup input::placeholder {
+    font-size: 15px;
+    color: #807f7d;
+  }
+
+  .input-senha input {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #dddddd;
+    outline: none;
+    color: #807f7d;
+  }
+
+  .input-senha input:focus {
+    border-color: #f50057;
+    border-radius: 5px;
+  }
+
+  .input-senha input::placeholder {
+    font-size: 15px;
+    color: #807f7d;
+  }
+
+  form i {
+    color: #807f7d;
+    position: absolute;
+    margin-left: 90%;
+    transform: translateY(-212%);
+  }
+
+  button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 30px 0 20px 0;
+    background: #f50057;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #a30844;
+    transition: 0.2;
+  }
+  button:active {
+    background: #f50057;
+    transition: 0.2;
+  }
+
+  .container {
+    display: flex;
+    width: 930px;
+    border-radius: 18px;
+    background: #ffff;
+  }
+}
+
+@media screen and (max-width: 1422px) {
+  .input-grup input {
+    width: 95%;
+    padding: 15px;
+    margin-top: 20px;
+    outline: none;
+    color: #807f7d;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .input-grup input:focus {
+    border-color: #f50057;
+    border-radius: 5px;
+  }
+
+  .input-grup input::placeholder {
+    font-size: 15px;
+    color: #807f7d;
+  }
+
+  .input-senha input {
+    width: 95%;
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #dddddd;
+    outline: none;
+    color: #807f7d;
+  }
+
+  .input-senha input:focus {
+    border-color: #f50057;
+    border-radius: 5px;
+  }
+
+  .input-senha input::placeholder {
+    font-size: 15px;
+    color: #807f7d;
+  }
+
+  form i {
+    color: #807f7d;
+    position: absolute;
+    margin-left: 85%;
+    transform: translateY(-212%);
+  }
+
+  .input-checkbox {
+    margin-top: 30px;
+    accent-color: #807f7d;
+  }
+
+  .input-checkbox input {
+    cursor: pointer;
+  }
+  .input-checkbox span {
+    font-weight: 400;
+    font-size: 15px;
+    color: #222222;
+  }
+
+  button {
+    width: 95%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 30px 0 20px 0;
+    background: #f50057;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #a30844;
+    transition: 0.2;
+  }
+  button:active {
+    background: #f50057;
+    transition: 0.2;
+  }
+
+  .container {
+    display: flex;
+    width: 930px;
+    border-radius: 18px;
+    background: #ffff;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container-img {
+    display: none;
+  }
+  .input-grup input {
+    width: 140%;
+    padding: 15px;
+    margin-top: 20px;
+    outline: none;
+    color: #807f7d;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .input-grup input:focus {
+    border-color: #f50057;
+    border-radius: 5px;
+  }
+
+  .input-grup input::placeholder {
+    font-size: 15px;
+    color: #807f7d;
+  }
+
+  .input-senha input {
+    width: 140%;
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #dddddd;
+    outline: none;
+    color: #807f7d;
+  }
+
+  .input-senha input:focus {
+    border-color: #f50057;
+    border-radius: 5px;
+  }
+
+  .input-senha input::placeholder {
+    font-size: 15px;
+    color: #807f7d;
+  }
+
+  form i {
+    color: #807f7d;
+    position: absolute;
+    margin-left: 130%;
+    transform: translateY(-212%);
+  }
+
+  .input-checkbox {
+    margin-top: 30px;
+    accent-color: #807f7d;
+  }
+
+  .input-checkbox input {
+    cursor: pointer;
+  }
+  .input-checkbox span {
+    font-weight: 400;
+    font-size: 15px;
+    color: #222222;
+  }
+
+  button {
+    width: 140%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 30px 0 20px 0;
+    background: #f50057;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #a30844;
+    transition: 0.2;
+  }
+  button:active {
+    background: #f50057;
+    transition: 0.2;
+  }
+
+  .container {
+    display: flex;
+    width: 930px;
+    border-radius: 18px;
+    background: #ffff;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .input-grup input {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    outline: none;
+    color: #807f7d;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .input-grup input:focus {
+    border-color: #f50057;
+    border-radius: 5px;
+  }
+
+  .input-grup input::placeholder {
+    font-size: 15px;
+    color: #807f7d;
+  }
+
+  .input-senha input {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #dddddd;
+    outline: none;
+    color: #807f7d;
+  }
+
+  .input-senha input:focus {
+    border-color: #f50057;
+    border-radius: 5px;
+  }
+
+  .input-senha input::placeholder {
+    font-size: 15px;
+    color: #807f7d;
+  }
+
+  form i {
+    color: #807f7d;
+    position: absolute;
+    margin-left: 90%;
+    transform: translateY(-212%);
+  }
+
+  button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 30px 0 20px 0;
+    background: #f50057;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #a30844;
+    transition: 0.2;
+  }
+  button:active {
+    background: #f50057;
+    transition: 0.2;
+  }
+
+  .container {
+    border-radius: 18px;
+    background: #ffff;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .container h2 {
+    font-size: 34px;
+    margin-left: -16px;
+  }
+  div.input-grup {
+    transform: translateX(-10%);
+  }
+  .input-grup input {
+    width: 90%;
+    padding: 15px;
+    margin-top: 20px;
+    outline: none;
+    color: #807f7d;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .input-grup input:focus {
+    border-color: #f50057;
+    border-radius: 5px;
+  }
+
+  .input-grup input::placeholder {
+    font-size: 14px;
+    color: #807f7d;
+  }
+
+  .input-senha input {
+    width: 90%;
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #dddddd;
+    outline: none;
+    color: #807f7d;
+    transform: translateX(-10%);
+  }
+
+  .input-senha input:focus {
+    border-color: #f50057;
+    border-radius: 5px;
+  }
+
+  .input-senha input::placeholder {
+    font-size: 14px;
+    color: #807f7d;
+  }
+
+  form i {
+    color: #807f7d;
+    position: absolute;
+    margin-left: 70%;
+    transform: translateY(-212%);
+  }
+
+  .input-checkbox {
+    margin-top: 30px;
+    accent-color: #807f7d;
+    transform: translateX(-10%);
+  }
+
+  .input-checkbox input {
+    cursor: pointer;
+  }
+  .input-checkbox span {
+    font-weight: 400;
+    font-size: 14px;
+    color: #222222;
+  }
+
+  button {
+    width: 90%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 30px 0 20px 0;
+    background: #f50057;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transform: translateX(-10%);
+  }
+
+  button:hover {
+    background: #a30844;
+    transition: 0.2;
+  }
+  button:active {
+    background: #f50057;
+    transition: 0.2;
+  }
+
+  .container {
+    display: flex;
+    border-radius: 18px;
+    background: #ffff;
+  }
+  .form-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .container h2 {
+    font-size: 30px;
+    margin-left: -30px;
+  }
+  div.input-grup {
+    transform: translateX(-12%);
+  }
+  .input-grup input {
+    width: 90%;
+    padding: 15px;
+    margin-top: 20px;
+    outline: none;
+    color: #807f7d;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .input-grup input:focus {
+    border-color: #f50057;
+    border-radius: 5px;
+  }
+
+  .input-grup input::placeholder {
+    font-size: 12px;
+    color: #807f7d;
+  }
+
+  .input-senha input {
+    width: 90%;
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #dddddd;
+    outline: none;
+    color: #807f7d;
+    transform: translateX(-12%);
+  }
+
+  .input-senha input:focus {
+    border-color: #f50057;
+    border-radius: 5px;
+  }
+
+  .input-senha input::placeholder {
+    font-size: 12px;
+    color: #807f7d;
+  }
+
+  form i {
+    color: #807f7d;
+    position: absolute;
+    margin-left: 68%;
+    transform: translateY(-212%);
+  }
+
+  .input-checkbox {
+    margin-top: 30px;
+    accent-color: #807f7d;
+    transform: translateX(-10%);
+  }
+
+  .input-checkbox input {
+    cursor: pointer;
+  }
+  .input-checkbox span {
+    font-weight: 400;
+    font-size: 12px;
+    color: #222222;
+  }
+
+  button {
+    width: 90%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 30px 0 20px 0;
+    background: #f50057;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transform: translateX(-10%);
+  }
+
+  button:hover {
+    background: #a30844;
+    transition: 0.2;
+  }
+  button:active {
+    background: #f50057;
+    transition: 0.2;
+  }
+
+  .container {
+    display: flex;
+    border-radius: 18px;
+    background: #ffff;
+  }
+  .form-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  h2 {
+    margin-left: -50px;
+  }
+  div.input-grup {
+    transform: translateX(-25%);
+  }
+  .input-grup input {
+    width: 110%;
+    padding: 15px;
+    margin-top: 20px;
+    outline: none;
+    color: #807f7d;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .input-grup input:focus {
+    border-color: #f50057;
+    border-radius: 5px;
+  }
+
+  .input-grup input::placeholder {
+    font-size: 14px;
+    color: #807f7d;
+  }
+
+  .input-senha input {
+    width: 110%;
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #dddddd;
+    outline: none;
+    color: #807f7d;
+    transform: translateX(-25%);
+  }
+
+  .input-senha input:focus {
+    border-color: #f50057;
+    border-radius: 5px;
+  }
+
+  .input-senha input::placeholder {
+    font-size: 14px;
+    color: #807f7d;
+  }
+
+  form i {
+    color: #807f7d;
+    position: absolute;
+    margin-left: 70%;
+    transform: translateY(-212%);
+  }
+
+  .input-checkbox {
+    margin-top: 30px;
+    accent-color: #807f7d;
+    transform: translateX(-25%);
+  }
+
+  .input-checkbox input {
+    cursor: pointer;
+  }
+  .input-checkbox span {
+    font-weight: 400;
+    font-size: 15px;
+    color: #222222;
+  }
+
+  button {
+    width: 110%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 30px 0 20px 0;
+    background: #f50057;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transform: translateX(-25%);
+  }
+
+  button:hover {
+    background: #a30844;
+    transition: 0.2;
+  }
+  button:active {
+    background: #f50057;
+    transition: 0.2;
+  }
+
+  .container {
+    display: flex;
+    border-radius: 18px;
+    background: #ffff;
+  }
+  .form-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 509px) {
+  .container h2 {
+    font-size: 25px;
+    transform: translateX(-14%);
+  }
+  div.input-grup {
+    transform: translateX(-35%);
+  }
+  .input-grup input {
+    width: 120%;
+    padding: 15px;
+    margin-top: 20px;
+    outline: none;
+    color: #807f7d;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .input-grup input:focus {
+    border-color: #f50057;
+    border-radius: 5px;
+  }
+
+  .input-grup input::placeholder {
+    font-size: 14px;
+    color: #807f7d;
+  }
+
+  .input-senha input {
+    width: 120%;
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #dddddd;
+    outline: none;
+    color: #807f7d;
+    transform: translateX(-29%);
+  }
+
+  .input-senha input:focus {
+    border-color: #f50057;
+    border-radius: 5px;
+  }
+
+  .input-senha input::placeholder {
+    font-size: 14px;
+    color: #807f7d;
+  }
+
+  form i {
+    color: #807f7d;
+    position: absolute;
+    margin-left: 70%;
+    transform: translateY(-212%);
+  }
+
+  .input-checkbox {
+    margin-top: 30px;
+    accent-color: #807f7d;
+    transform: translateX(-25%);
+  }
+
+  .input-checkbox input {
+    cursor: pointer;
+  }
+  .input-checkbox span {
+    font-weight: 400;
+    font-size: 14px;
+    color: #222222;
+  }
+
+  button {
+    width: 120%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 30px 0 20px 0;
+    background: #f50057;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transform: translateX(-29%);
+  }
+
+  button:hover {
+    background: #a30844;
+    transition: 0.2;
+  }
+  button:active {
+    background: #f50057;
+    transition: 0.2;
+  }
+
+  .container {
+    display: flex;
+    border-radius: 18px;
+    background: #ffff;
+  }
+  .form-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .container h2 {
+    font-size: 26px;
+  }
+  div.input-grup {
+    transform: translateX(-50%);
+  }
+  .input-grup input {
+    width: 140%;
+    padding: 15px;
+    margin-top: 20px;
+    outline: none;
+    color: #807f7d;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .input-grup input:focus {
+    border-color: #f50057;
+    border-radius: 5px;
+  }
+
+  .input-grup input::placeholder {
+    font-size: 15px;
+    color: #807f7d;
+  }
+
+  .input-senha input {
+    width: 140%;
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #dddddd;
+    outline: none;
+    color: #807f7d;
+    transform: translateX(-35%);
+  }
+
+  .input-senha input:focus {
+    border-color: #f50057;
+    border-radius: 5px;
+  }
+
+  .input-senha input::placeholder {
+    font-size: 15px;
+    color: #807f7d;
+  }
+
+  form i {
+    color: #807f7d;
+    position: absolute;
+    margin-left: 70%;
+    transform: translateY(-212%);
+  }
+
+  .input-checkbox {
+    margin-top: 30px;
+    accent-color: #807f7d;
+    transform: translateX(-25%);
+  }
+
+  .input-checkbox input {
+    cursor: pointer;
+  }
+  .input-checkbox span {
+    font-weight: 400;
+    font-size: 14px;
+    color: #222222;
+  }
+
+  button {
+    width: 140%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 30px 0 20px 0;
+    background: #f50057;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transform: translateX(-35%);
+  }
+
+  button:hover {
+    background: #a30844;
+    transition: 0.2;
+  }
+  button:active {
+    background: #f50057;
+    transition: 0.2;
+  }
+
+  .container {
+    display: flex;
+    border-radius: 18px;
+    background: #ffff;
+  }
+  .form-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .container h2 {
+    font-size: 36px;
+    transform: translateX(1%);
+    margin-top: 25px;
+  }
+  div.input-grup {
+    transform: translateX(-15%);
+  }
+  .input-grup input {
+    width: 100%;
+    padding: 20px;
+    margin-top: 40px;
+    outline: none;
+    color: #807f7d;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .input-grup input:focus {
+    border-color: #f50057;
+    border-radius: 5px;
+  }
+
+  .input-grup input::placeholder {
+    font-size: 16px;
+    color: #807f7d;
+  }
+
+  .input-senha input {
+    width: 100%;
+    padding: 20px;
+    margin-top: 40px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #dddddd;
+    outline: none;
+    color: #807f7d;
+    transform: translateX(-15%);
+  }
+
+  .input-senha input:focus {
+    border-color: #f50057;
+    border-radius: 5px;
+  }
+
+  .input-senha input::placeholder {
+    font-size: 16px;
+    color: #807f7d;
+  }
+
+  form i {
+    color: #807f7d;
+    position: absolute;
+    margin-left: 75%;
+    transform: translateY(-212%);
+  }
+
+  .input-checkbox {
+    margin-top: 50px;
+    accent-color: #807f7d;
+    transform: translateX(-15%);
+  }
+
+  .input-checkbox input {
+    cursor: pointer;
+  }
+  .input-checkbox span {
+    font-weight: 400;
+    font-size: 20px;
+    color: #222222;
+  }
+
+  button {
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    margin: 50px 0 0px 0;
+    background: #f50057;
+    color: #ffff;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transform: translateX(-15%);
+  }
+
+  button:hover {
+    background: #a30844;
+    transition: 0.2;
+  }
+  button:active {
+    background: #f50057;
+    transition: 0.2;
+  }
+
+  .container {
+    display: flex;
+    min-width: 90vw;
+    min-height: 100vh;
+    border-radius: 18px;
+    background: #ffff;
+  }
+
+  .container-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .container h2 {
+    font-size: 36px;
+    transform: translateX(1%);
+    margin-top: 15px;
+  }
+  div.input-grup {
+    transform: translateX(-15%);
+  }
+  .input-grup input {
+    width: 100%;
+    padding: 18px;
+    margin-top: 40px;
+    outline: none;
+    color: #807f7d;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .input-grup input:focus {
+    border-color: #f50057;
+    border-radius: 5px;
+  }
+
+  .input-grup input::placeholder {
+    font-size: 15px;
+    color: #807f7d;
+  }
+
+  .input-senha input {
+    width: 100%;
+    padding: 18px;
+    margin-top: 30px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #dddddd;
+    outline: none;
+    color: #807f7d;
+    transform: translateX(-15%);
+  }
+
+  .input-senha input:focus {
+    border-color: #f50057;
+    border-radius: 5px;
+  }
+
+  .input-senha input::placeholder {
+    font-size: 15px;
+    color: #807f7d;
+  }
+
+  form i {
+    color: #807f7d;
+    position: absolute;
+    margin-left: 75%;
+    transform: translateY(-212%);
+  }
+
+  .input-checkbox {
+    margin-top: 20px;
+    accent-color: #807f7d;
+    transform: translateX(-15%);
+  }
+
+  .input-checkbox input {
+    cursor: pointer;
+  }
+  .input-checkbox span {
+    font-weight: 400;
+    font-size: 16px;
+    color: #222222;
+  }
+
+  button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px 0 0px 0;
+    background: #f50057;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transform: translateX(-15%);
+  }
+
+  button:hover {
+    background: #a30844;
+    transition: 0.2;
+  }
+  button:active {
+    background: #f50057;
+    transition: 0.2;
+  }
+
+  .container {
+    display: flex;
+    min-width: 90vw;
+    min-height: 100vh;
+    border-radius: 18px;
+    background: #ffff;
+  }
+
+  .container-img {
+    display: none;
+  }
+}
